@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fortune Teller</title>
+    <title>Fortune Teller | Fortune page</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,21 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="container">
-        <div class="logos-home-page"> <img src="logo.png" id="logo-1" alt="logo" width="42" height="32">
+        <div class="logos-question-page"> <img src="logo.png" id="logo-1" alt="logo" width="42" height="32">
             <img src="logo.png" id="logo-2" alt="logo" width="42" height="32">
         </div>
-        <h1 id="home-page-heading">Fortune Teller</h1>
-        <p id="ask-name-paragh">What is your name?</p>
-        <form action="questionPage.html" method="get">
-            <input type="text" name="username" id="text-box" class="user-name" placeholder="click here to type">
-            <input type="submit" id="submit-name-btn" value="Click here to submit">
-        </form>
+        <h1 id="fortune-page-heading">Here is your Fortune!</h1>
+        <p id="user-fortune"></p><a href="index.html">
+            <button id="new-user-btn" type="button">New User</button></a>
+        <a href="questionPage.html"><button id="new-question-btn" type="submit">New Question</button></a>
     </div>
-    <script src="index.js"></script>
+    <script src="fortune.js"></script>
 </body>
 
 </html>
